@@ -1,0 +1,10 @@
+<mat-accordion>
+  <mat-expansion-panel>
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        {{data.name}}
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+    <app-data-table [name]="data.name" [result]="data.value"></app-data-table>
+  </mat-expansion-panel>
+</mat-accordion>
